@@ -1,0 +1,52 @@
+.bck-navbar {
+    background-color: #A49E8D;
+    height: 75px;
+    margin: 0px;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    float: right;
+}
+
+.black {
+    color: #27384A;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #689689;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #5f857a;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 150px;
+    border-radius: 50%;
+  }
